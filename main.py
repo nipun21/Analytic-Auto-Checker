@@ -88,4 +88,4 @@ for m in range(0,len(final)):
         elif((final[m][n][0])=='SVM'):
             SVM.append(final[m][n][1])
 df=pd.DataFrame(list(zip(DTree,NBase,KNN,LRegression,SVM)),columns=['D-Tree','Naive_Base','KNN','LRegression','SVM'])
-df
+print(df)
